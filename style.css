@@ -13,22 +13,24 @@ body{
 }
 .cabecalho{
     
-    display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-    background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
+  gap: 300px;
+  background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
 }
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 42px;
+    
   }
 
 .cabecalho-imagem {
     height: 72px;
+    
   }
-
 
   .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
