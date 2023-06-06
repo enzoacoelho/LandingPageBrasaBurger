@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Khand:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-body{
 
-    font-size: 100%;
+body {
+
+  font-size: 100%;
 
 }
-.cabecalho{
-    
+
+.cabecalho {
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,20 +23,21 @@ body{
   gap: 300px;
   background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
 }
+
 .cabecalho-menu {
-    display: flex;
-    gap: 42px;
-    
-  }
+  display: flex;
+  gap: 42px;
+
+}
 
 .cabecalho-imagem {
-    height: 72px;
-    
-  }
+  height: 72px;
 
-  .cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px
-  }
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
