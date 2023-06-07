@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+
 }
 
 body {
@@ -41,10 +42,12 @@ body {
   font-weight: 400;
   font-size: 18px
 }
+
 .conteudo {
   margin-bottom: 48px;
   border-top: 0.1px solid #FFF2E7;
 }
+
 .conteudo-inicial {
   display: flex;
   flex-direction: row;
@@ -52,13 +55,15 @@ body {
   justify-content: space-around;
   background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
 }
+
 .conteudo-inicial-descricao {
   display: flex;
   flex-direction: column;
   gap: 32px;
   background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
 }
-.conteudo-inicial-escrito-titulo{
+
+.conteudo-inicial-escrito-titulo {
   position: absolute;
   width: 742px;
   height: 162px;
@@ -73,7 +78,7 @@ body {
   color: #FFFF;
 }
 
-.conteudo-inicial-escrito-subtitulo{
+.conteudo-inicial-escrito-subtitulo {
   position: absolute;
   width: 689px;
   height: 74px;
@@ -88,6 +93,7 @@ body {
   color: #FFFF;
 
 }
+
 .conteudo-inicial-botao {
   display: flex;
   flex-direction: row;
@@ -104,9 +110,10 @@ body {
   background-color: #F8D147;
   border-radius: 28px;
 
-  
+
 }
-.texto-botao-inicial{
+
+.texto-botao-inicial {
   color: black;
   font-family: 'Bevan';
   font-size: 19px;
@@ -122,11 +129,193 @@ body {
 .conteudo-inicial-botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
 }
+
 .conteudo-inicial-imagem {
- 
+
   position: relative;
   width: 496px;
   height: 600px;
   left: 142px;
   top: 50px;
 }
+
+.cards-produtos-destaques {
+  background-color: white;
+  position: relative;
+  width: 185px;
+  height: 354px;
+  top: 90px;
+}
+
+.card-destaque1 {
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Khand';
+  font-style: normal;
+}
+
+.imagem-card1 {
+  position: absolute;
+  width: 646px;
+  height: 300px;
+  left: 56px;
+
+}
+
+.card-destaque-titulo1 {
+  position: absolute;
+  width: 128px;
+  height: 28px;
+  left: 86px;
+  top: 20px;
+
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px; 
+
+}
+
+.card-destaque-subtitulo1 {
+  position: absolute;
+  width: 492px;
+  height: 49px;
+  left: 86px;
+  top: 40px;
+
+  
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 49px;
+
+ 
+}
+
+.card-destaque2 {
+  position: relative;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Khand';
+  font-style: normal;
+
+}
+
+.imagem-card2 {
+  position: absolute;
+  width: 525px;
+  height: 145px;
+  left: 750px;
+  border-radius: 16px;
+
+}
+.card-destaque-titulo2{
+position: absolute;
+width: 1168px;
+height: 28px;
+left: 770px;
+top: 14px;
+
+
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+
+
+}
+.card-destaque-subtitulo2{
+position: absolute;
+width: 1257px;
+height: 49px;
+left: 770px;
+top: 35px;
+
+
+font-weight: 600;
+font-size: 32px;
+line-height: 49px;
+
+
+}
+.card-destaque3{
+  position: relative;
+  color:white;
+  font-family: 'Khand';
+  font-style: normal;
+  text-transform: uppercase;
+  
+}
+.imagem-card3{
+  position: absolute;
+  width: 525px;
+  height: 145px;
+  left: 750px;
+  border-radius: 16px;
+  top: 155px;
+
+}
+.card-destaque-titulo3{
+position: absolute;
+width: 1168px;
+height: 28px;
+left: 770px;
+top: 168px;
+
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+
+
+}
+.card-destaque-subtitulo3{
+
+  position: absolute;
+width: 1257px;
+height: 49px;
+left: 770px;
+top: 188px;
+
+
+font-weight: 600;
+font-size: 32px;
+line-height: 49px;
+
+
+
+}
+
+
+
+.menu-produtos {}
+
+.menu-produtos-titulo {}
+
+.menu-produtos-subtitulo {}
+
+.menucard-produto {}
+
+.menucard-produto-imagem {}
+
+.menucard-produto-titulo {}
+
+.menucard-produto-subtitulo {}
+
+.menucard-produto-botao {}
+
+.menu-sobrenos {}
+
+.menu-sobrenos-caixa {}
+
+.menu-sobrenos-titulo {}
+
+.menu-sobrenos-texto {}
+
+.menu-sobrenos-imagem {}
+
+.reservar-mesa {}
+
+.reservar-mesa-titulo {}
+
+.reservar-mesa-subtitulo {}
