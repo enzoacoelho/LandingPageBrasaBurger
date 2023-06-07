@@ -468,15 +468,56 @@ flex-grow: 0;
 
 
 
-.menu-sobrenos {}
+.menu-sobrenos {
+  background: white;
+}
 
 .menu-sobrenos-caixa {}
 
-.menu-sobrenos-titulo {}
+.menu-sobrenos-titulo {
 
-.menu-sobrenos-texto {}
+position: absolute;
+width: 417px;
+height: 74px;
+left: 71px;
+top: 2381px;
 
-.menu-sobrenos-imagem {}
+font-family: 'Bevan';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 74px;
+
+
+text-align: center;
+text-transform: uppercase;
+
+color: #3A0A04;
+}
+
+.menu-sobrenos-texto {
+  position: absolute;
+width: 637px;
+height: 261px;
+left: 71px;
+top: 2479px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 37px;
+
+color: #232329;
+}
+
+.menu-sobrenos-imagem {
+  position: absolute;
+width: 636px;
+height: 444px;
+left: 732px;
+top: 2396px;
+}
 
 .reservar-mesa {}
 
