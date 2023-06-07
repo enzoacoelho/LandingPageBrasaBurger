@@ -222,8 +222,6 @@ body {
   font-size: 18px;
   line-height: 28px;
 
-
-
 }
 
 .card-destaque-subtitulo2 {
@@ -299,148 +297,176 @@ body {
 
 .menu-produtos-titulo {
 
-position: absolute;
-width: 504px;
-height: 74px;
-left: 485px;
-top: 1210px;
+  position: absolute;
+  width: 504px;
+  height: 74px;
+  left: 485px;
+  top: 1210px;
 
-font-family: 'Bevan';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 74px;
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 74px;
 
-text-align: center;
-text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #3A0A04;
+  color: #3A0A04;
 
 
 }
 
 .menu-produtos-subtitulo {
 
-position: absolute;
-width: 832px;
-height: 37px;
-left: 311px;
-top: 1280px;
+  position: absolute;
+  width: 832px;
+  height: 37px;
+  left: 311px;
+  top: 1280px;
 
-font-family: 'Khand';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 37px;
-
-
-text-align: center;
-text-transform: capitalize;
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 37px;
 
 
-color: #232329;
+  text-align: center;
+  text-transform: capitalize;
+
+
+  color: #232329;
 }
 
 .menucard-produto {
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 33px;
 
-position: absolute;
-width: 416px;
-height: 658px;
-left: 72px;
-top: 1563px;
+  position: absolute;
+  width: 416px;
+  height: 658px;
+  left: 12px;
+  top: 1403px;
+}
+.menucard-produto2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 33px;
+
+  position: absolute;
+  width: 416px;
+  height: 658px;
+  left: 480px;
+  top: 1403px;
+
+}
+.menucard-produto3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 33px;
+
+  position: absolute;
+  width: 416px;
+  height: 658px;
+  left: 920px;
+  top: 1403px;
+
 }
 
 .menucard-produto-imagem {
-  width: 348px;
-height: 302px;
-
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 309px;
+  height: 280px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .menucard-produto-titulo {
-  
-width: 176px;
-height: 49px;
 
-font-family: 'Khand';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 49px;
-/* identical to box height */
+  width: 176px;
+  height: 30px;
 
-text-align: center;
-text-transform: capitalize;
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #232329;
 
-/* body text */
-
-color: #232329;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .menucard-produto-subtitulo {
-  width: 294px;
-height: 150px;
+  width: 220px;
+  height: 150px;
 
-font-family: 'Khand';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 37px;
-text-align: center;
-text-transform: capitalize;
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  
 
-/* body text */
+  color: #232329;
 
-color: #232329;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .menucard-produto-botao {
   display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 15px 56px;
-gap: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 56px;
+  gap: 50px;
 
-width: 215px;
-height: 56px;
+  width: 215px;
+  height: 56px;
 
-/* red */
+  background: #C92B1E;
+  border-radius: 18px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.menucard-produto-botao-texto{
+  
+width: 103px;
+height: 26px;
 
-background: #C92B1E;
-border-radius: 28px;
+font-family: 'Bevan';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
 
-/* Inside auto layout */
+color: #FFFFFF;
 
 flex: none;
-order: 2;
+order: 0;
 flex-grow: 0;
 }
+.menucard-produto-botao:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+
+}
+
+
+
 
 .menu-sobrenos {}
 
