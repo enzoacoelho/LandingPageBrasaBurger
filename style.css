@@ -56,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  background: radial-gradient(42.87% 81.1% at 76.49% 55.08%, #F88747 0%, #3A0A04 100%);
 }
 .conteudo-inicial-escrito-titulo{
   position: absolute;
@@ -86,4 +87,46 @@ body {
   line-height: 74px;
   color: #FFFF;
 
+}
+.conteudo-inicial-botao {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 56px;
+  gap: 10px;
+
+  position: absolute;
+  width: 215px;
+  height: 56px;
+  left: 78px;
+  top: 435px;
+
+  background-color: #F8D147;
+  border-radius: 28px;
+
+  
+}
+.texto-botao-inicial{
+  color: black;
+  font-family: 'Bevan';
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 200;
+  font-size: normal;
+  align-items: center;
+  width: 103px;
+  height: 26px;
+
+}
+
+.conteudo-inicial-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+.conteudo-inicial-imagem {
+ 
+  position: relative;
+  width: 496px;
+  height: 600px;
+  left: 142px;
+  top: 50px;
 }
