@@ -171,8 +171,8 @@ body {
   top: 20px;
 
   font-weight: 600;
-font-size: 18px;
-line-height: 28px; 
+  font-size: 18px;
+  line-height: 28px;
 
 }
 
@@ -183,12 +183,12 @@ line-height: 28px;
   left: 86px;
   top: 40px;
 
-  
+
   font-weight: 600;
   font-size: 32px;
   line-height: 49px;
 
- 
+
 }
 
 .card-destaque2 {
@@ -209,44 +209,48 @@ line-height: 28px;
   border-radius: 16px;
 
 }
-.card-destaque-titulo2{
-position: absolute;
-width: 1168px;
-height: 28px;
-left: 770px;
-top: 14px;
+
+.card-destaque-titulo2 {
+  position: absolute;
+  width: 1168px;
+  height: 28px;
+  left: 770px;
+  top: 14px;
 
 
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
 
-
-
-}
-.card-destaque-subtitulo2{
-position: absolute;
-width: 1257px;
-height: 49px;
-left: 770px;
-top: 35px;
-
-
-font-weight: 600;
-font-size: 32px;
-line-height: 49px;
 
 
 }
-.card-destaque3{
+
+.card-destaque-subtitulo2 {
+  position: absolute;
+  width: 1257px;
+  height: 49px;
+  left: 770px;
+  top: 35px;
+
+
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 49px;
+
+
+}
+
+.card-destaque3 {
   position: relative;
-  color:white;
+  color: white;
   font-family: 'Khand';
   font-style: normal;
   text-transform: uppercase;
-  
+
 }
-.imagem-card3{
+
+.imagem-card3 {
   position: absolute;
   width: 525px;
   height: 145px;
@@ -255,54 +259,188 @@ line-height: 49px;
   top: 155px;
 
 }
-.card-destaque-titulo3{
-position: absolute;
-width: 1168px;
-height: 28px;
-left: 770px;
-top: 168px;
 
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
+.card-destaque-titulo3 {
+  position: absolute;
+  width: 1168px;
+  height: 28px;
+  left: 770px;
+  top: 168px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
 
 
 
 }
-.card-destaque-subtitulo3{
+
+.card-destaque-subtitulo3 {
 
   position: absolute;
-width: 1257px;
-height: 49px;
-left: 770px;
-top: 188px;
+  width: 1257px;
+  height: 49px;
+  left: 770px;
+  top: 188px;
 
 
-font-weight: 600;
-font-size: 32px;
-line-height: 49px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 49px;
 
 
 
 }
 
+.menu-produtos {
+  background-color: white;
+
+}
+
+.menu-produtos-titulo {
+
+position: absolute;
+width: 504px;
+height: 74px;
+left: 485px;
+top: 1210px;
+
+font-family: 'Bevan';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 74px;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #3A0A04;
 
 
-.menu-produtos {}
+}
 
-.menu-produtos-titulo {}
+.menu-produtos-subtitulo {
 
-.menu-produtos-subtitulo {}
+position: absolute;
+width: 832px;
+height: 37px;
+left: 311px;
+top: 1280px;
 
-.menucard-produto {}
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 37px;
 
-.menucard-produto-imagem {}
 
-.menucard-produto-titulo {}
+text-align: center;
+text-transform: capitalize;
 
-.menucard-produto-subtitulo {}
 
-.menucard-produto-botao {}
+color: #232329;
+}
+
+.menucard-produto {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 53px;
+
+position: absolute;
+width: 416px;
+height: 658px;
+left: 72px;
+top: 1563px;
+}
+
+.menucard-produto-imagem {
+  width: 348px;
+height: 302px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.menucard-produto-titulo {
+  
+width: 176px;
+height: 49px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 49px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* body text */
+
+color: #232329;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.menucard-produto-subtitulo {
+  width: 294px;
+height: 150px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+text-transform: capitalize;
+
+/* body text */
+
+color: #232329;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.menucard-produto-botao {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 56px;
+gap: 10px;
+
+width: 215px;
+height: 56px;
+
+/* red */
+
+background: #C92B1E;
+border-radius: 28px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
 
 .menu-sobrenos {}
 
