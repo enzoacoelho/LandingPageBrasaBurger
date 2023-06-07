@@ -763,3 +763,72 @@ flex-grow: 0;
   background-color: rgba(236, 214, 196, 0.53);
 
 }
+
+.rodape{
+position: relative;
+width: 1440px;
+height: 415px;
+left: 0px;
+top: 2600px;
+
+background: linear-gradient(0deg, rgba(58, 10, 4, 0.83), rgba(58, 10, 4, 0.83))
+
+}
+
+.menu-footer{
+position: relative;
+height: 110px;
+left: 622px;
+top: 200px;
+
+
+}
+.menu-termos-footer{
+position: absolute;
+width: 215px;
+height: 111px;
+left: 842px;
+top: 200px;
+}
+.pimenta{
+  position: absolute;
+width: 125px;
+height: 422px;
+left: 1022px;
+top: -55px;
+}
+.menu-infos-footer{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 170px;
+height: 64px;
+left: 1198px;
+top: 80px;
+}
+.redes-sociais-footer{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+right: 72px;
+top: 300px;
+
+}
+.nome-logo-footer{
+position: absolute;
+width: 263px;
+height: 68px;
+left: 72px;
+top: 34px;
+
+}
